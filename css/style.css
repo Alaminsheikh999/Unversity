@@ -1,0 +1,379 @@
+/*========================== site default css==========================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+p {
+  font-family: "Rubik", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Rajdhani:wght@500;600;700&family=Rubik:wght@300&display=swap");
+
+.container-full {
+  width: 100%;
+  padding: 0 15px;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container-full ::before,
+.container-full ::after,
+.container ::before,
+.container ::after{
+  display: table;
+  clear: both;
+}
+
+.col-10 {
+  width: 10%;
+  float: left;
+  padding: 0 15px;
+}
+
+.col-15 {
+  width: 15%;
+  float: left;
+  padding: 0 15px;
+}
+.col-20 {
+  width: 20%;
+  float: left;
+  padding: 0 15px;
+}
+.col-25 {
+  width: 25%;
+  float: left;
+  padding: 0 15px;
+}
+.col-30 {
+  width: 30%;
+  float: left;
+  padding: 0 15px;
+}
+
+.col-33 {
+  width: 33.33%;
+  float: left;
+  padding: 0 15px;
+}
+.col-50 {
+  width: 50%;
+  float: left;
+  padding: 0 15px;
+}
+.col-60 {
+  width: 60%;
+  float: left;
+  padding: 0 15px;
+}
+.col-100 {
+  width: 100%;
+  float: left;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.section-padding{
+  padding-top: 100px;
+  padding-top: 100px;
+}
+
+/*---------------------------------
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Rubik', sans-serif;
+https://demo.omexer.com/main/-----*/
+/*==========================css-site==========================*/
+/*======================= 1.top-header css=======================*/
+.top-header {
+  background: #0e0a38;
+  padding: 35px 0;
+  color: #fff;
+}
+
+.search-box {
+  position: relative;
+  bottom: 23px;
+}
+.search-box input {
+  background: #27234c;
+  border: none;
+  padding: 10px 75px 10px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.search-box i {
+  position: absolute;
+  right: 45px;
+  bottom: 10px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.socil-icon {
+  list-style: none;
+  float: right;
+}
+.socil-icon li {
+  display: inline-block;
+}
+.socil-icon li a{
+  color: #fff;
+  margin: 0px 15px;
+  font-size: 15;
+  transition: 0.3s;
+}
+
+.socil-icon li a::hover{
+  color: #FE630E;
+}
+
+.email-number {
+  text-align: right;
+}
+.email-number span {
+  margin-left: 40px;
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+}
+/*======================= 2. header css=======================*/
+.header {
+  background: #FFF;
+  padding: 45px 0;
+}
+
+.logo img {
+  display: inline-block;
+  width: 180px;
+  height: auto;
+  margin-top: -20px;
+}
+
+.main-menu {
+  margin-top: -15px;
+  list-style: none;
+  float: right;
+  padding: 0px 0;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+.main-menu li a {
+  font-size: 19px;
+  font-weight: 700;
+  color: #130f40;
+  text-transform: capitalize;
+  margin: 0 12px;
+  transition: 0.3s;
+}
+
+.main-menu li a:hover {
+  color: #fe630e;
+}
+
+.cart {
+  position: relative;
+}
+.cart::before {
+  content: "0";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: #fe630e;
+  border-radius: 50%;
+  top: -12px;
+  right: -12px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.login {
+  background: #FE630E;
+  margin-top: -15px;
+  border-radius: 5px;
+  display: inline-block;
+  
+}
+
+.login a {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  padding: 8px;
+  float: right;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+/*======================= 3. home css=======================*/
+
+.home{
+  background-image: url("../image/banner-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 500px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.home:before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(5, 1, 51, 0.77);
+  left: 0;
+  top: 0;
+  opacity: 10;
+  z-index: -1;
+}
+
+.home-content {
+  color: #fff;
+  text-align: center;
+}
+
+.home-content h5{
+  color: #FF630E;
+  font-family: "Rajdhani", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.home-content h2{
+    color: #FFFFFF;
+    font-family: "Rajdhani", Sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 80px;
+    padding: 10px 0 20px 0;
+}
+
+.home-content p{
+  font-family: "Rubik", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.btn{
+  font-family: "Rajdhani", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  background:  #FFFFFF;
+  color: #FE630E;
+  padding: 15px 30px 15px 30px;
+  transition: .3s;
+  margin: 15px;
+  border-radius: 5px;
+}
+.btn:hover, .btn-active{
+  background: #FE630E;
+  color: #FFFFFF;
+
+}
+/*======================= 4.categories css=======================*/
+
+.section-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section-title span{
+  color: #FF630E;
+  font-family: "Rajdhani", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: 1px;
+  padding-top: 50px;
+}
+.section-title h2{
+  color: #130F40;
+  font-family: "Rajdhani", Sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 55px;
+  padding-top: 15px;
+}
+
+
+.ctg-single{
+  -webkit-box-shadow: -4px 4px 19px 0px rgba(0,0,0,0.39); 
+  box-shadow: -4px 4px 19px 0px rgba(0,0,0,0.39);
+  padding: 0 15px 30px 15px;
+  text-align: center;
+}
+
+.ctg-single img{
+  border-radius: 10px;
+  margin-top: -10px;
+
+}
+
+.ctg-single h3 a{
+  color: #130F40;
+  font-family: "Rajdhani", Sans-serif;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  margin: 10px 0;
+}
+.ctg-single h3 a:hover{
+  color: #FE630E;
+  transition: .3s;
+}
+.ctg-single span{
+  color: #696969;
+  font-family: "Rajdhani", Sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  
+}
+
+.ctg-btn{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*======================= 5.courses css=======================*/
+
+
