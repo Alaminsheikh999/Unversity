@@ -63,6 +63,16 @@ p {
   float: left;
   padding: 0 15px;
 }
+.col-45 {
+  width: 40%;
+  float: left;
+  padding: 0 15px;
+}
+.col-55 {
+  width: 40%;
+  float: left;
+  padding: 0 15px;
+}
 .col-50 {
   width: 50%;
   float: left;
@@ -92,6 +102,10 @@ img{
 .section-padding{
   padding-top: 100px;
   padding-top: 100px;
+}
+
+ul{
+  list-style: none;
 }
 
 /*---------------------------------
@@ -221,7 +235,6 @@ https://demo.omexer.com/main/-----*/
   font-family: "Rubik", sans-serif;
   color: #fff;
   padding: 8px;
-  float: right;
   text-transform: capitalize;
   display: inline-block;
 }
@@ -375,5 +388,72 @@ https://demo.omexer.com/main/-----*/
 }
 
 /*======================= 5.courses css=======================*/
+
+
+.courses-blog-single{
+  background: #FFF;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  
+}
+.courses-blog-img img{
+  width: 100%;
+  height: 260px;
+  border-radius: 10px;
+
+}
+
+.courses-blog-content{
+  padding: 35px;
+}
+
+.price{
+  color: #FF630E;
+  font-size: 24px;
+  font-weight: 700;
+}
+.courses-blog-content h3 a{
+  font-size: 24px;
+  text-transform: capitalize;
+  line-height: 34px;
+  font-weight: 700;
+  color: #130F40;
+  padding: 25px 0;
+  transition: .3s;
+}
+
+.courses-blog-content h3 a:hover{
+  color: #FE630E;
+}
+
+.star li{
+  display: inline-block;
+  color: #EFBD4F;
+}
+
+.star li:last-child{
+  color: #696969;
+  font-size: 17px;
+}
+
+.courses-blog-footer{
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #696969;
+  font-family: 'Rubik', sans-serif;
+}
+
+.user{
+  float: right;
+}
+
+.courses.section-padding{
+  padding-bottom: 70px;
+}
+
+/*======================= 6.offer css=======================*/
+
 
 
